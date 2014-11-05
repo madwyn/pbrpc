@@ -1,0 +1,15 @@
+package pbrpc.api;
+
+option cc_generic_services = true;
+
+message PingRequest {
+    required string message = 1;
+}
+
+message PingResponse {
+    required string result = 1;
+}
+
+service PingService {
+    rpc Ping (PingRequest) returns (PingResponse);
+}
