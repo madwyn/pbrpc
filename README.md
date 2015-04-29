@@ -1,5 +1,6 @@
 # pbrpc
-A simple implementation of Protobuf RPC server based on libpbrpc using C++
+
+This is a dedicated demo for [libpbrpc](https://github.com/madwyn/libpbrpc) using C++.
 
 # File structure
 
